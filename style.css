@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf0f5; /* Rose très clair */
+  color: #333; /* Noir */
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff69b4; /* Rose moyen */
+}
+
+#hint {
+  color: #ff1493; /* Rose vif */
+}
+
+#word-to-guess {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #800080; /* Violet */
+}
+
+#alphabet-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #ffb6c1; /* Rose pâle */
+  color: #fff; /* Blanc */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff69b4; /* Rose moyen */
+}
+
+#guessed-letters {
+  margin-bottom: 20px;
+  color: #ff1493; /* Rose vif */
+}
+
+#result {
+  font-size: 1.2em;
+  color: #800080; /* Violet */
+}
